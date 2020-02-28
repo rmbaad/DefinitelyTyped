@@ -231,7 +231,7 @@ export interface FlyToInterpolatorProps {
     curve?: number;
     speed?: number;
     screenSpeed?: number;
-    maxDuraiton?: number;
+    maxDuration?: number;
 }
 
 export class FlyToInterpolator extends TransitionInterpolator {
